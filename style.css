@@ -1,15 +1,13 @@
 body {
     display: flex;
     flex-direction: column;
-}
-
-img {
-    width: 200px;
+    margin: 0;
+    padding: 0;
 }
 
 .picture-text img {
-    height: 200px;
-    width: auto;
+    height: auto;
+    width: 200px;
 }
 
 .content {
@@ -69,15 +67,19 @@ a {
 
 .hero-secondary {
     font-size: 18px;
-    color: #e5e7eb
+    color: #e5e7eb;
+    margin-bottom: 8px;
 }
 
 .hero-button {
-    padding: 8 16px;
-    font-size: 16px;
     background-color: #3882f6;
     color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 8px 16px;
+    border-style: none
 }
+
 
 .information {
     background-color: white;
@@ -98,8 +100,16 @@ a {
 .pictures {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
-    gap: 52px;
+    gap: 112px;
+}
+
+.picture-text {
+    max-width: 200px;
+}
+
+.subtext {
+    display: flex;
+    justify-content: center;
 }
 
 .quote-section {
